@@ -10,7 +10,7 @@ Este projeto tem como objetivo a construção de um BOT que verifica os SLA de P
 $ git clone //URL do Repositorio
 $ cd jira_google_chat_sla_alert
 ```
-- instale o nodejs e as dependências se ainda não tiver instalado
+- instale o nodejs
 ```sh
 $ sudo apt update
 $ sudo apt install -Y nodejs npm
