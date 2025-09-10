@@ -1,4 +1,3 @@
-/* METODO GET */
 const fetch = require('node-fetch');
 fetch('https://org_name.atlassian.net/rest/api/3/search?jql=project=project_name+AND+updated>=startOfDay(-1d)+AND+resolution=Unresolved', {
   method: 'GET',
@@ -53,3 +52,4 @@ fetch('https://org_name.atlassian.net/rest/api/3/search', {
   })
   .then(text => console.log(text))
   .catch(err => console.error(err));
+
